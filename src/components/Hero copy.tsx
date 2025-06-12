@@ -1,14 +1,5 @@
-//import React from 'react';
-//new
-import React, { useState } from 'react';
-import {
-  Dialog,
-  DialogTrigger,
-  DialogContent,
-  DialogTitle,
-} from '@/components/ui/dialog';
-import InternationalExperienceChart from './InternationalExperienceChart';
-// new
+import React from 'react';
+
 interface HeroProps {
   data: {
     full_name: string;
@@ -20,9 +11,6 @@ interface HeroProps {
 }
 
 const Hero: React.FC<HeroProps> = ({ data }) => {
-  //new
-  const [open, setOpen] = useState(false);
-  //new
   const scrollToContact = () => {
     const element = document.getElementById('contact');
     if (element) {
@@ -108,20 +96,10 @@ const Hero: React.FC<HeroProps> = ({ data }) => {
 
           {/* Key Highlights */}
           <div className="mt-16 grid grid-cols-1 md:grid-cols-3 gap-8 max-w-4xl mx-auto">
-              <Dialog open={open} onOpenChange={setOpen}>
-                <DialogTrigger asChild>
-                  <div className="text-center p-6 bg-slate-800/50 backdrop-blur-sm rounded-xl border border-slate-700/50 cursor-pointer">
-                    <div className="text-3xl font-bold text-blue-400 mb-2">20+</div>
-                    <div className="text-slate-300">Years International Experience</div>
-                  </div>
-                </DialogTrigger>
-                <DialogContent className="bg-slate-900 border-slate-700">
-                  <DialogTitle className="text-white mb-4">Years by Country</DialogTitle>
-                  <InternationalExperienceChart />
-                </DialogContent>
-              </Dialog>
-
-
+            <div className="text-center p-6 bg-slate-800/50 backdrop-blur-sm rounded-xl border border-slate-700/50">
+              <div className="text-3xl font-bold text-blue-400 mb-2">20+</div>
+              <div className="text-slate-300">Years International Experience</div>
+            </div>
             <div className="text-center p-6 bg-slate-800/50 backdrop-blur-sm rounded-xl border border-slate-700/50">
               <div className="text-3xl font-bold text-cyan-400 mb-2">$10B+</div>
               <div className="text-slate-300">Projects Managed</div>
