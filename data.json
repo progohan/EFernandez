@@ -404,45 +404,41 @@
   ],
   "technical_expertise": {
     "delivery_models": [
-      "P3",
       "Design-Build",
+      "P3",
       "CMAR",
       "PDB",
       "Alliance"
     ],
     "project_types": [
       "Infrastructure Development",
-      "Rail Transportation",
+      "High-Speed Rail & Mass Transit Systems",
       "Highway Construction",
       "Bridge Engineering",
-      "Tunnel Construction",
-      "High-Speed Rail"
+      "Tunnel Design & Construction"
     ],
     "technical_skills": [
       "Civil Engineering",
-      "Structural Engineering",
-      "Geotechnical Engineering",
-      "Project Controls",
-      "Contract Management",
-      "Risk Management",
-      "Cost Engineering",
-      "Value Engineering"
+      "Structural Design",
+      "Geotechnical Analysis",
+      "Program Controls & Performance Analytics",
+      "Advanced Contract Management",
+      "Strategic Risk Management",
+      "Cost Optimization & Value Engineering"
     ],
     "technology_skills": [
       "Big Data Analytics",
       "AI Applications",
-      "Cloud Computing (AWS & Azure)",
-      "Project Management Software",
-      "Engineering Design Software"
+      "Cloud Computing (AWS & Azure)"
     ]
   },
   "leadership_skills": [
-    "Strategic Planning & Execution",
-    "Cross-Functional Team Leadership",
-    "Stakeholder Engagement & Communication",
-    "Mentorship & Team Development",
-    "Change Management",
-    "Business Development",
-    "Innovation & Continuous Improvement"
+    "Strategic Vision & Execution",
+    "Global Team Empowerment",
+    "High-Impact Business Development",
+    "Cross-Functional Collaboration",
+    "Organizational Change Leadership",
+    "Innovation & Continuous Improvement Culture",
+    "Executive Communication & Influence"
   ]
 }
